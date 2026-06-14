@@ -1,0 +1,7 @@
+# Dev-only artifacts — not part of the deployed site
+/_build/
+/_shots/
+/.impeccable/
+*.log
+.DS_Store
+Thumbs.db
