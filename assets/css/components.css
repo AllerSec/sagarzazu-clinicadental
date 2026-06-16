@@ -706,3 +706,9 @@
 .page-404 .float-tooth { width: clamp(120px, 24vw, 200px); margin-inline: auto; margin-bottom: var(--space-m); }
 .page-404 h1 { font-size: var(--step-5); }
 .page-404 .redirect-note { margin-top: var(--space-m); font-size: var(--step--1); color: var(--ink-soft); }
+
+/* ---------- Realce de fotos: un punto de saturación y vivacidad ---------- */
+/* Solo a las fotografías (.webp); no afecta a logos/iconos SVG ni PNG. */
+img[src$=".webp"] {
+  filter: saturate(1.12) contrast(1.04) brightness(1.01);
+}
