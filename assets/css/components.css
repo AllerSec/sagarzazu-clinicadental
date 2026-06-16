@@ -372,6 +372,8 @@
   aspect-ratio: 4 / 3.4;
 }
 .split__media img { width: 100%; height: 100%; object-fit: cover; }
+/* Foto vertical: encuadrar hacia la cara para no cortar la cabeza */
+.split__media--portrait img { object-position: 50% 18%; }
 .split__media--blob { border-radius: 48% 52% 56% 44% / 54% 46% 54% 46%; box-shadow: var(--shadow-md); }
 .split__content h2 { margin-bottom: var(--space-s); }
 .split__content .lead { margin-bottom: var(--space-s); }
